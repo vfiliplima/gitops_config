@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: my-cmatrix
-        image: vfilima/cmatrix:latest
+        image: vfilima/cmatrix
         ports:
         - containerPort: 8080
         resources:
