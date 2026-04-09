@@ -3,9 +3,6 @@ resources:
 
 nameSuffix: -sandbox
 
-labels:
-  env: sandbox
-
 patches:
   - target:
       kind: Deployment

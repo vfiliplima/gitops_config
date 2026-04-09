@@ -1,0 +1,4 @@
+resources:
+  - ./overlays/dev
+  - ./overlays/sandbox
+  - ./overlays/prod

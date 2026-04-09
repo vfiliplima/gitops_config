@@ -3,9 +3,6 @@ resources:
 
 nameSuffix: -prod
 
-labels:
-  env: prod
-
 patches:
   - target:
       kind: Deployment
