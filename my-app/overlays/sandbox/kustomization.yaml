@@ -3,7 +3,7 @@ resources:
 
 nameSuffix: -sandbox
 
-commonLabels:
+labels:
   env: sandbox
 
 patches:
