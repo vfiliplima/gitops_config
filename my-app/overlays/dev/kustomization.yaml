@@ -1,0 +1,16 @@
+resources:
+  - ../../base
+
+nameSuffix: -dev
+
+commonLabels:
+  env: dev
+
+patches:
+  - target:
+      kind: Deployment
+      name: nginx
+    patch: |
+      - op: replace 
+      path: /spec/replicas
+      value: 2
